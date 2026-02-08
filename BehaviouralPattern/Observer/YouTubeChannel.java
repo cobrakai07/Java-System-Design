@@ -18,12 +18,12 @@ public class YouTubeChannel implements Publisher {
     }
 
     @Override
-    public void addSubsciber(Subscriber subscriber) {
+    public void addSubscriber(Subscriber subscriber) {
         subscribers.add(subscriber);
     }
 
     @Override
-    public void removeSubsciber(Subscriber subscriber) {
+    public void removeSubscriber(Subscriber subscriber) {
         subscribers.remove(subscriber);
     }
 
